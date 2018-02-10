@@ -1,0 +1,6 @@
+C:\Epam final task\HotelBookingApp\TestingProg\bin\Debug\TestingProg.exe.config
+C:\Epam final task\HotelBookingApp\TestingProg\bin\Debug\TestingProg.exe
+C:\Epam final task\HotelBookingApp\TestingProg\bin\Debug\TestingProg.pdb
+C:\Epam final task\HotelBookingApp\TestingProg\obj\Debug\TestingProg.csprojResolveAssemblyReference.cache
+C:\Epam final task\HotelBookingApp\TestingProg\obj\Debug\TestingProg.exe
+C:\Epam final task\HotelBookingApp\TestingProg\obj\Debug\TestingProg.pdb

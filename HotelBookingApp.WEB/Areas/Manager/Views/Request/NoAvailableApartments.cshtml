@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "No available apartments";
+}
+
+<h2>Error</h2>
+
+<div class="div-for-alert">
+    <span class="alert alert-danger">
+        No available apartments by this request.
+    </span>
+</div>
+<div>
+    <button class="btn btn-default" onclick="location.href='@Url.Action("Index")';">
+        Back to requests
+    </button>
+</div>
+

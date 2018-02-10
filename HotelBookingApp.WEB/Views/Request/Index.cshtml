@@ -1,0 +1,126 @@
+﻿@model IEnumerable<HotelBookingApp.WEB.Models.RequestViewModel>
+
+@{
+    ViewBag.Title = "Requests";
+}
+
+<h2>My requests</h2>
+
+<ul class="nav nav-tabs">
+    <li>@Html.ActionLink("Main page", "Index", "PersonalOffice")</li>
+    <li class="active">@Html.ActionLink("Requests", "Index", "Request")</li>
+    <li>@Html.ActionLink("Bookings", "Index", "Booking")</li>
+    <li>
+        @if (ViewBag.Alerts != null)
+        {
+            <a href="@Url.Action("Alerts", "PersonalOffice", null)">
+                <span class="badge">@ViewBag.Alerts</span> Alerts
+            </a>
+        }
+        else
+        {
+            @Html.ActionLink("Alerts", "Alerts", "PersonalOffice")
+        }
+    </li>
+</ul>
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Number of places</th>
+                <th>Date of arrival</th>
+                <th>Days of stay</th>
+                <th>Apartment class</th>
+                <th>Is processed</th>
+                <th>Is confirmed</th>
+                <th>Message</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td>@r.RequestDate.ToShortDateString()</td>
+                    <td>@r.NumberOfPlaces</td>
+                    <td>@r.DateOfArrival.ToShortDateString()</td>
+                    <td>@r.DaysOfStay</td>
+
+                    @if (r.ApartmentClassId == 1)
+                    {
+                        <td>Luxury</td>
+                    }
+                    else if (r.ApartmentClassId == 2)
+                    {
+                        <td>Comfort</td>
+                    }
+                    else if (r.ApartmentClassId == 3)
+                    {
+                        <td>Economy</td>
+                    }
+
+                    @if (r.IsProcessed)
+                    {
+                        <td><span class="label label-success">Yes</span></td>
+                    }
+                    else
+                    {
+                        <td><span class="label label-danger">No</span></td>
+                    }
+
+                    @if (r.IsConfirmed)
+                    {
+                        <td><span class="label label-success">Yes</span></td>                    }
+                    else
+                    {
+                        <td><span class="label label-danger">No</span></td>
+                    }
+
+                    <td>
+                        @if (r.Message != null)
+                        {
+                            <span class="glyphicon glyphicon-hand-up">
+                                <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Click</a>
+                            </span> 
+                        }
+                    </td>
+                    <td>
+                        <button class="btn btn-warning btn-xs" onclick="location.href='@Url.Action("CancelRequest", "Request", new { @id = (int)r.Id })';">
+                            Cancel
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<p>
+    <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("MakeRequest", "Request")';return false;">
+        Make request
+    </button>
+</p>
+
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div> 

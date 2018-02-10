@@ -1,0 +1,96 @@
+﻿@model IEnumerable<HotelBookingApp.WEB.Models.ApartmentViewModel>
+
+@{
+    ViewBag.Title = "Manager page";
+}
+
+<h2>Manager home page</h2>
+
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li class="active">@Html.ActionLink("Main page", "Index", "Home")</li>
+        <li>
+            <a href="@Url.Action("Index","Request",null)">
+                @if (ViewBag.ReqCount != null)
+                {
+                    <span class="badge">@ViewBag.ReqCount</span>
+                }
+                Requests
+            </a>
+        </li>
+        <li>
+            <a href="@Url.Action("Index")">
+                <span class="badge">2</span> Some page
+            </a>
+        </li>
+    </ul>
+
+    @*<div class="panel panel-default" style="margin-top:5px;">
+        <div class="panel-heading">
+            <h4>All apartments</h4>
+        </div>
+        <div class="panel-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Number of places</th>
+                        <th>Number of rooms</th>
+                        <th>Price per day</th>
+                        <th>Apartment class</th>
+                        <th>Is opened</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var a in Model)
+                    {
+                        <tr>
+                            <td>@a.Number</td>
+                            <td>@a.NumberOfPlaces</td>
+                            <td>@a.NumberOfRooms</td>
+                            <td>@a.PricePerDay</td>
+
+                            @if (a.ApartmentClassId == 1)
+                            {
+                                <td>Luxury</td>
+                            }
+                            else if (a.ApartmentClassId == 2)
+                            {
+                                <td>Comfort</td>
+                            }
+                            else if (a.ApartmentClassId == 3)
+                            {
+                                <td>Economy</td>
+                            }
+                            
+                            @if (!a.IsClosed)
+                            {
+                                <td>
+                                    <span class="label label-success">Yes</span>
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger btn-xs" onclick="location.href='@Url.Action("CloseApartment", "Apartments", new { @id = (int)a.Id })';">
+                                        Close
+                                    </button>
+                                </td>
+                            }
+                            else
+                            {
+                                <td>
+                                    <span class="label label-danger">No</span>
+                                </td>
+                                <td>
+                                    <button class="btn btn-success btn-xs" onclick="location.href='@Url.Action("OpenApartment", "Apartments", new { @id = (int)a.Id })';">
+                                        Open
+                                    </button>
+                                </td>
+                            }
+                            
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>*@
+</div>

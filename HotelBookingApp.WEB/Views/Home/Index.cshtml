@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Hotel booking site</h1>
+    <p class="lead">Our site allows you to book apartment in our hotel</p>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <p>
+            <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "PersonalOffice")';return false;">
+                Get to work
+            </button>
+        </p>
+    }
+    else
+    {
+        <p>
+            <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Login", "Account")';return false;">
+                Log in
+            </button>
+        </p>
+    }
+</div>

@@ -1,0 +1,26 @@
+﻿@model HotelBookingApp.WEB.Models.ApartmentViewModel
+
+<div class="modal-content">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal" area-hidden="true">X</button>
+        <h4>Apartment closing confirmation</h4>
+    </div>
+    <div class="modal-body">
+        @if (ViewBag.Error != null)
+        {
+            <div class="div-for-alert">
+                <span class="alert alert-danger">@ViewBag.Error</span>
+            </div>
+        }
+        else
+        {
+            <div class="div-for-alert">
+                <span class="alert alert-dismissable">Are you sure want to close apartment number @Model.Number?</span>
+            </div>
+            <dl class="dl-horizontal">
+                <dt>Number:</dt>
+                <dd>@Html.DisplayFor(model => model.Number)</dd>
+            </dl>
+        }
+    </div>
+</div>

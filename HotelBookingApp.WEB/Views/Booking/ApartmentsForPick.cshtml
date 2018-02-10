@@ -1,0 +1,42 @@
+﻿@model IEnumerable<HotelBookingApp.WEB.Models.ApartmentViewModel>
+
+@{
+    ViewBag.Title = "Apartments for pick";
+}
+
+<h2>Apartments for pick</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="div-for-alert">
+        <span class="alert alert-danger">
+            @ViewBag.Error
+        </span>
+    </div>
+}
+else
+{
+    <div class="container">
+        @foreach (var a in Model)
+        {
+            <div class="panel panel-default">
+                <div class="panel-body" style="position:relative">
+                    <img src="~/Content/room1.jpg" alt="room_picture" class="room-picture" />
+                    <div class="pull-left">
+                        @Html.LabelFor(model => a.Number): @Html.DisplayFor(model => a.Number) <br />
+                        @Html.LabelFor(model => a.NumberOfPlaces): @Html.DisplayFor(model => a.NumberOfPlaces) <br />
+                        @Html.LabelFor(model => a.NumberOfRooms): @Html.DisplayFor(model => a.NumberOfRooms) <br />
+                        @Html.LabelFor(model => a.Floor): @Html.DisplayFor(model => a.Floor) <br />
+                        @Html.LabelFor(model => a.PricePerDay): @Html.DisplayFor(model => a.PricePerDay) <br />
+                    </div>
+                    <button class="btn btn-primary pick-btn">
+                        Pick
+                    </button>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+
+

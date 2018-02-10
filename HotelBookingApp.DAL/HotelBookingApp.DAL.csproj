@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCC4BCCC-064B-41BE-90C4-BD18BEF187A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HotelBookingApp.DAL</RootNamespace>
+    <AssemblyName>HotelBookingApp.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EF\HotelContext.cs" />
+    <Compile Include="Entities\Apartment.cs" />
+    <Compile Include="Entities\ApartmentClass.cs" />
+    <Compile Include="Entities\ApplicationRole.cs" />
+    <Compile Include="Entities\ApplicationUser.cs" />
+    <Compile Include="Entities\Bill.cs" />
+    <Compile Include="Entities\Booking.cs" />
+    <Compile Include="Entities\ClientProfile.cs" />
+    <Compile Include="Entities\Request.cs" />
+    <Compile Include="Identity\ApplicationRoleManager.cs" />
+    <Compile Include="Identity\ApplicationUserManager.cs" />
+    <Compile Include="Interfaces\IClientManager.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Interfaces\IUnitOfWorkIdentity.cs" />
+    <Compile Include="Migrations\201801260905257_ForIdentity.cs" />
+    <Compile Include="Migrations\201801260905257_ForIdentity.Designer.cs">
+      <DependentUpon>201801260905257_ForIdentity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801271001447_SecondMigr.cs" />
+    <Compile Include="Migrations\201801271001447_SecondMigr.Designer.cs">
+      <DependentUpon>201801271001447_SecondMigr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801271248245_ThirdMigr.cs" />
+    <Compile Include="Migrations\201801271248245_ThirdMigr.Designer.cs">
+      <DependentUpon>201801271248245_ThirdMigr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801281444287_Migr1.cs" />
+    <Compile Include="Migrations\201801281444287_Migr1.Designer.cs">
+      <DependentUpon>201801281444287_Migr1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801281447035_Migr2.cs" />
+    <Compile Include="Migrations\201801281447035_Migr2.Designer.cs">
+      <DependentUpon>201801281447035_Migr2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801281452156_Migr3.cs" />
+    <Compile Include="Migrations\201801281452156_Migr3.Designer.cs">
+      <DependentUpon>201801281452156_Migr3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801281805458_Migr5.cs" />
+    <Compile Include="Migrations\201801281805458_Migr5.Designer.cs">
+      <DependentUpon>201801281805458_Migr5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801302226064_Migr6.cs" />
+    <Compile Include="Migrations\201801302226064_Migr6.Designer.cs">
+      <DependentUpon>201801302226064_Migr6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801310916532_Migr7.cs" />
+    <Compile Include="Migrations\201801310916532_Migr7.Designer.cs">
+      <DependentUpon>201801310916532_Migr7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801310919233_Migr8.cs" />
+    <Compile Include="Migrations\201801310919233_Migr8.Designer.cs">
+      <DependentUpon>201801310919233_Migr8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801310920186_Migr9.cs" />
+    <Compile Include="Migrations\201801310920186_Migr9.Designer.cs">
+      <DependentUpon>201801310920186_Migr9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801310921455_Migr10.cs" />
+    <Compile Include="Migrations\201801310921455_Migr10.Designer.cs">
+      <DependentUpon>201801310921455_Migr10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801311319501_Migr11.cs" />
+    <Compile Include="Migrations\201801311319501_Migr11.Designer.cs">
+      <DependentUpon>201801311319501_Migr11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801311321474_Migr111.cs" />
+    <Compile Include="Migrations\201801311321474_Migr111.Designer.cs">
+      <DependentUpon>201801311321474_Migr111.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802011003212_Migr12.cs" />
+    <Compile Include="Migrations\201802011003212_Migr12.Designer.cs">
+      <DependentUpon>201802011003212_Migr12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ApartmentClassRepository.cs" />
+    <Compile Include="Repositories\ApartmentRepository.cs" />
+    <Compile Include="Repositories\BillRepository.cs" />
+    <Compile Include="Repositories\BookingRepository.cs" />
+    <Compile Include="Repositories\ClientManagerRepository.cs" />
+    <Compile Include="Repositories\EFUnitOfWork.cs" />
+    <Compile Include="Repositories\IdentityUnitOfWork.cs" />
+    <Compile Include="Repositories\RequestRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201801260905257_ForIdentity.resx">
+      <DependentUpon>201801260905257_ForIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801271001447_SecondMigr.resx">
+      <DependentUpon>201801271001447_SecondMigr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801271248245_ThirdMigr.resx">
+      <DependentUpon>201801271248245_ThirdMigr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801281444287_Migr1.resx">
+      <DependentUpon>201801281444287_Migr1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801281447035_Migr2.resx">
+      <DependentUpon>201801281447035_Migr2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801281452156_Migr3.resx">
+      <DependentUpon>201801281452156_Migr3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801281805458_Migr5.resx">
+      <DependentUpon>201801281805458_Migr5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801302226064_Migr6.resx">
+      <DependentUpon>201801302226064_Migr6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801310916532_Migr7.resx">
+      <DependentUpon>201801310916532_Migr7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801310919233_Migr8.resx">
+      <DependentUpon>201801310919233_Migr8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801310920186_Migr9.resx">
+      <DependentUpon>201801310920186_Migr9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801310921455_Migr10.resx">
+      <DependentUpon>201801310921455_Migr10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801311319501_Migr11.resx">
+      <DependentUpon>201801311319501_Migr11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801311321474_Migr111.resx">
+      <DependentUpon>201801311321474_Migr111.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802011003212_Migr12.resx">
+      <DependentUpon>201802011003212_Migr12.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

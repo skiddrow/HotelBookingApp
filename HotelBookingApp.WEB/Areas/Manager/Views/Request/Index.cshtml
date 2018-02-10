@@ -1,0 +1,117 @@
+﻿@model IEnumerable<HotelBookingApp.WEB.Models.RequestViewModel>
+
+@{
+    ViewBag.Title = "Requests";
+}
+
+<h2>Requests</h2>
+
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li>@Html.ActionLink("Main page", "Index", "Home")</li>
+        <li class="active">
+            <a href="@Url.Action("Index","Request",null)">
+                Requests
+            </a>
+        </li>
+        <li>
+            <a href="@Url.Action("Index")">
+                <span class="badge">2</span> Some page
+            </a>
+        </li>
+    </ul>
+
+    <h2>Not processed requests</h2>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Number of places</th>
+                <th>Date of arrival</th>
+                <th>Days of stay</th>
+                <th>Apartment class</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                if (!r.IsConfirmed)
+                {
+                    <tr>
+                        <td>@r.RequestDate.ToShortDateString()</td>
+                        <td>@r.NumberOfPlaces</td>
+                        <td>@r.DateOfArrival.ToShortDateString()</td>
+                        <td>@r.DaysOfStay</td>
+
+                        @if (r.ApartmentClassId == 1)
+                        {
+                            <td>Luxury</td>
+                        }
+                        else if (r.ApartmentClassId == 2)
+                        {
+                            <td>Comfort</td>
+                        }
+                        else if (r.ApartmentClassId == 3)
+                        {
+                            <td>Economy</td>
+                        }
+                        <td>
+                            <button class="btn btn-primary btn-xs" onclick="location.href='@Url.Action("RoomsForPick", "Request", new { @id = (int)r.Id })';">
+                                Pick room
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn btn-danger btn-xs" onclick="location.href='@Url.Action("CancelRequest", "Request", new { @id = (int)r.Id })';">
+                                Cancel
+                            </button>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<h2>Not confirmed requests</h2>
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Number of places</th>
+                <th>Date of arrival</th>
+                <th>Days of stay</th>
+                <th>Apartment class</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td>@r.RequestDate.ToShortDateString()</td>
+                    <td>@r.NumberOfPlaces</td>
+                    <td>@r.DateOfArrival.ToShortDateString()</td>
+                    <td>@r.DaysOfStay</td>
+
+                    @if (r.ApartmentClassId == 1)
+                    {
+                        <td>Luxury</td>
+                    }
+                    else if (r.ApartmentClassId == 2)
+                    {
+                        <td>Comfort</td>
+                    }
+                    else if (r.ApartmentClassId == 3)
+                    {
+                        <td>Economy</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

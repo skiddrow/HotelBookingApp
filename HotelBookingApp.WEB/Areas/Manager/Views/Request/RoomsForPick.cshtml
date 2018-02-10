@@ -1,0 +1,64 @@
+﻿@model IEnumerable<HotelBookingApp.WEB.Models.ApartmentViewModel>
+
+@{
+    ViewBag.Title = "Rooms for pick";
+}
+
+<h2>Rooms for pick</h2>
+
+@if (ViewBag.Error != null)
+{
+    <span class="alert alert-danger">@ViewBag.Error</span>
+}
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Number of places</th>
+                <th>Floor</th>
+                <th>NumberOfRooms</th>
+                <th>Apartment class</th>
+                <th>Price per day</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in Model)
+            {
+                <tr>
+                    <td>@a.Number</td>
+                    <td>@a.NumberOfPlaces</td>
+                    <td>@a.Floor</td>
+                    <td>@a.NumberOfRooms</td>
+
+                    @if (a.ApartmentClassId == 1)
+                    {
+                        <td>Luxury</td>
+                    }
+                    else if (a.ApartmentClassId == 2)
+                    {
+                        <td>Comfort</td>
+                    }
+                    else if (a.ApartmentClassId == 3)
+                    {
+                        <td>Economy</td>
+                    }
+
+                    <td>@a.PricePerDay</td>
+                    <td>
+                        <button class="btn btn-warning btn-xs" onclick="location.href='@Url.Action("RoomPickingConfirmation", "Request", new { @aprtId = (int)a.Id, @reqId = (int)ViewBag.ReqId })';return false;">
+                            Pick
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button class="btn btn-primary" onclick="location.href='@Url.Action("Index")';return false;">
+        Back to requests
+    </button>
+</div>
+
+

@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNet.Identity
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<ul class="nav nav-tabs">
+    <li class="active">@Html.ActionLink("Main page", "Index", "PersonalOffice")</li>
+    <li>@Html.ActionLink("Requests", "Index", "Request")</li>
+    <li>@Html.ActionLink("Bookings", "Index", "Booking")</li>
+    <li>
+        @if (ViewBag.Alerts != 0)
+        {
+            <a href="@Url.Action("Alerts")">
+                <span class="badge">@ViewBag.Alerts</span> Alerts
+            </a>
+        }
+        else
+        {
+            @Html.ActionLink("Alerts", "Alerts", "PersonalOffice")
+        }
+    </li>
+</ul>
+
+<div class="cntr-for-panel">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4>Hello, @User.Identity.Name</h4>
+        </div>
+        <div class="panel-body">
+            <h4>Manage your account</h4>
+        </div>
+    </div>
+</div>

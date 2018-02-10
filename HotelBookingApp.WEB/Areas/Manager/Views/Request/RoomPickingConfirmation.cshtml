@@ -1,0 +1,77 @@
+﻿@model HotelBookingApp.WEB.Models.ApartmentViewModel
+
+@{
+    ViewBag.Title = "Room picking confirmation";
+}
+
+<h2>Room picking confirmation</h2>
+
+<div class="div-for-alert">
+    <span class="alert alert-warning">Are you sure want to pick this apartment for this request?</span>
+</div>
+
+<div class="form-horizontal">
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Id, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @class = "form-control", @readonly = true } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Floor, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Floor, new { htmlAttributes = new { @class = "form-control", @readonly = true } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Number, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Number, new { htmlAttributes = new { @class = "form-control", @readonly = true } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NumberOfPlaces, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NumberOfPlaces, new { htmlAttributes = new { @class = "form-control", @readonly = true } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NumberOfRooms, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NumberOfRooms, new { htmlAttributes = new { @class = "form-control", @readonly = true } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PricePerDay, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.PricePerDay, new { htmlAttributes = new { @class = "form-control", @readonly = true } })
+        </div>
+    </div>
+
+    <div style="display:flex;">
+        @*@using (Html.BeginForm("ConfirmRequest", "Request", FormMethod.Post))
+        {
+            @Html.HiddenFor(Model => Model.Id)
+
+            <input type="submit" class="btn btn-primary" value="Confirm" />
+        }*@
+
+        <button class="btn btn-primary inline-btn" onclick="location.href='@Url.Action("ConfirmRequest", new { @aprtId = (int?)Model.Id, @reqId = (int?)ViewBag.ReqId })';">
+            Confirm
+        </button>
+
+        <button class="btn btn-danger inline-btn" onclick="location.href='@Url.Action("RoomsForPick", new { @id = (int?)ViewBag.ReqId })';">
+            Back
+        </button>
+    </div>
+
+</div>
+
+
+

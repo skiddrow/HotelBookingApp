@@ -1,0 +1,88 @@
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\HotelBookingApp.DAL.dll.config
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\HotelBookingApp.DAL.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\HotelBookingApp.DAL.pdb
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\EntityFramework.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Owin.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\EntityFramework.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.ForIdentity.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.SecondMigr.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.ThirdMigr.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.csproj.GenerateResource.Cache
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.pdb
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr1.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr2.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr3.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr5.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr6.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr7.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr8.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr9.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr10.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr11.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr111.resources
+C:\Epam final task\HotelBookingApp\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr12.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\HotelBookingApp.DAL.dll.config
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\HotelBookingApp.DAL.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\HotelBookingApp.DAL.pdb
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\EntityFramework.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Owin.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\EntityFramework.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.ForIdentity.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.SecondMigr.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.ThirdMigr.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr1.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr2.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr3.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr5.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr6.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr7.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr8.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr9.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr10.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr11.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr111.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.Migrations.Migr12.resources
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.csproj.GenerateResource.Cache
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.DAL\obj\Debug\HotelBookingApp.DAL.pdb

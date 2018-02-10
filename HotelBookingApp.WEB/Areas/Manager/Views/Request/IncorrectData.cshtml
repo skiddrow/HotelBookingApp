@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Incorrect apartment id";
+}
+
+<h2>Error</h2>
+
+<div class="div-for-alert">
+    <span class="alert alert-danger">
+        Incorrect apartment or request Id. Try again.
+    </span>
+</div>
+<div>
+    <button class="btn btn-default" onclick="location.href='@Url.Action("Index")';">
+        Back to requests
+    </button>
+</div>
+

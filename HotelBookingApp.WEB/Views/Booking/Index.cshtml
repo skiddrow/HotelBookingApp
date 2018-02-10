@@ -1,0 +1,100 @@
+﻿@model IEnumerable<HotelBookingApp.WEB.Models.BookingViewModel>
+
+@{
+    ViewBag.Title = "Bookings";
+}
+
+<h2>Bookings</h2>
+
+<ul class="nav nav-tabs">
+    <li>@Html.ActionLink("Main page", "Index", "PersonalOffice")</li>
+    <li>@Html.ActionLink("Requests", "Index", "Request")</li>
+    <li class="active">@Html.ActionLink("Bookings", "Index", "Booking")</li>
+    <li>
+        @if (ViewBag.Alerts != null)
+        {
+            <a href="@Url.Action("Alerts", "PersonalOffice", null)">
+                <span class="badge">@ViewBag.Alerts</span> Alerts
+            </a>
+        }
+        else
+        {
+            @Html.ActionLink("Alerts", "Alerts", "PersonalOffice")
+        }
+    </li>
+</ul>
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Number of places</th>
+                <th>Date of arrival</th>
+                <th>Days of stay</th>
+                <th>Apartment class</th>
+                <th>Is paid</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var b in Model)
+            {
+                <tr>
+                    <td>@b.BookingDate.Value.ToShortDateString()</td>
+                    <td>@b.NumberOfPlaces</td>
+                    <td>@b.DateOfArrival.ToShortDateString()</td>
+                    <td>@b.DaysOfArrival</td>
+
+                    @if (b.ApartmentClassId == 1)
+                    {
+                        <td>Luxury</td>
+                    }
+                    else if (b.ApartmentClassId == 2)
+                    {
+                        <td>Comfort</td>
+                    }
+                    else if (b.ApartmentClassId == 3)
+                    {
+                        <td>Economy</td>
+                    }
+
+                    @if (b.IsConfirmed)
+                    {
+                        <td><span class="label label-success">Yes</span></td>
+                        <td></td>
+                        <td></td>
+                    }
+                    else if (b.IsCanceled)
+                    {
+                        <td><span class="label label-danger">Canceled</span></td>
+                        <td></td>
+                        <td></td>
+                    }
+                    else
+                    {
+                        <td><span class="label label-warning">No</span></td>
+
+                        <td>
+                            <button class="btn btn-success btn-xs" onclick="location.href='@Url.Action("index", "Home", new { @id = (int)b.Id })';return false;">
+                                Pay
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn btn-warning btn-xs" onclick="location.href='@Url.Action("CancelBooking", "Booking", new { @id = (int)b.Id })';return false;">
+                                Cancel
+                            </button>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<p>
+    <button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("MakeBooking", "Booking")';return false;">
+        Make booking
+    </button>
+</p>

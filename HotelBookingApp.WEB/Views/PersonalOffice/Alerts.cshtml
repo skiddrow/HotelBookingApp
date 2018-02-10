@@ -1,0 +1,54 @@
+﻿@model IEnumerable<HotelBookingApp.WEB.Models.BookingViewModel>
+
+@{
+    ViewBag.Title = "Alerts";
+}
+
+<h2>Alerts</h2>
+
+<ul class="nav nav-tabs">
+    <li>@Html.ActionLink("Main page", "Index", "PersonalOffice")</li>
+    <li>@Html.ActionLink("Requests", "Index", "Request")</li>
+    <li>@Html.ActionLink("Bookings", "Index", "Booking")</li>
+    <li class="active">@Html.ActionLink("Alerts", "Alerts", "PersonalOffice")</li>
+</ul>
+
+<div class="alert alert-info div-for-alert">You need to pay for next bookings</div>
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Deadline for payment</th>
+                <th>Date of arrival</th>
+                <th>Days of stay</th>
+                <th>Price</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var b in Model)
+            {
+                <tr>
+                    <td>@b.BookingDate.Value.ToShortDateString()</td>
+                    <td>@b.BookingDate.Value.AddDays(2)</td>
+                    <td>@b.DateOfArrival.ToShortDateString()</td>
+                    <td>@b.DaysOfArrival</td>
+                    <td>@b.Price</td>
+                    <td>
+                        <button class="btn btn-success btn-xs" onclick="location.href='@Url.Action("index", "Home", new { @id = (int)b.Id })';return false;">
+                            Pay
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn btn-warning btn-xs" onclick="location.href='@Url.Action("index", "Home", new { @id = (int)b.Id })';return false;">
+                            Cancel
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,208 @@
+﻿@model IEnumerable<HotelBookingApp.WEB.Models.ApartmentViewModel>
+
+@{
+    Layout = null;
+    ViewBag.Title = "Admin page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
+    <script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#aprtTable').dataTable();
+        });
+    </script>
+
+    <script src="~/Scripts/jquery-3.1.0.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $.ajaxSetup({ cache: false });
+            $(".aprt").click(function (e) {
+
+                e.preventDefault();
+                $.get(this.href, function (data) {
+                    $('#dialogContent').html(data);
+                    $('#modDialog').modal('show');
+                });
+            });
+        })
+    </script>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Hotel booking", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, null)</li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Personal office", "Index", "PersonalOffice", new { area = "" }, null)</li>
+                    }
+                    @if (User.IsInRole("Moderator") || User.IsInRole("Admin"))
+                    {
+                        <li>@Html.ActionLink("Moderator page", "Index", "Home", new { area = "Manager" }, null)</li>
+                    }
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li>@Html.ActionLink("Admin page", "Index", "Home", new { area = "Admin" }, null)</li>
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        <h2>Admin home page</h2>
+
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="active">@Html.ActionLink("Main page", "Index", "Home")</li>
+                <li>@Html.ActionLink("Users", "Index", "Roles ")</li>
+            </ul>
+
+            <div class="panel panel-default" style="margin-top:5px;">
+                <div class="panel-heading">
+                    <h4>All apartments</h4>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-striped" id="aprtTable">
+                        <thead>
+                            <tr>
+                                <th>Number</th>
+                                <th>Number of places</th>
+                                <th>Number of rooms</th>
+                                <th>Price per day</th>
+                                <th>Apartment class</th>
+                                <th>Is opened</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var a in Model)
+                            {
+                                <tr>
+                                    <td>@a.Number</td>
+                                    <td>@a.NumberOfPlaces</td>
+                                    <td>@a.NumberOfRooms</td>
+                                    <td>@a.PricePerDay</td>
+
+                                    @if (a.ApartmentClassId == 1)
+                                    {
+                                        <td>Luxury</td>
+                                    }
+                                    else if (a.ApartmentClassId == 2)
+                                    {
+                                        <td>Comfort</td>
+                                    }
+                                    else if (a.ApartmentClassId == 3)
+                                    {
+                                        <td>Economy</td>
+                                    }
+
+                                    @if (a.Closeable)
+                                    {
+                                        if (!a.IsClosed)
+                                        {
+                                            <td>
+                                                <span class="label label-success">Yes</span>
+                                            </td>
+                                            <td>
+                                                <button class="btn btn-danger btn-xs" onclick="location.href='@Url.Action("CloseApartment", new { @id = (int)a.Id })';">
+                                                    Close
+                                                </button>
+                                            </td>
+                                            @*<td>
+                                                    <button class="btn btn-success btn-xs" onclick="location.href='@Url.Action("OpenApartment", "Apartments", new { @id = (int)a.Id })';">
+                                                        Open
+                                                    </button>
+                                                </td>*@
+                                        }
+                                        else
+                                        {
+                                            <td>
+                                                <span class="label label-danger">No</span>
+                                            </td>
+                                            <td>
+                                                <button class="btn btn-success btn-xs" onclick="location.href='@Url.Action("OpenApartment", new { @id = (int)a.Id })';">
+                                                    Open
+                                                </button>
+                                            </td>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <td>
+                                            <span class="label label-warning">Not closeable</span>
+                                        </td>
+                                        <td></td>
+                                    }
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        @*<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+            <!-- Modal -->
+            <div id="CloseModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Close apartment?</h4>
+                        </div>
+                        <div class="modal-body">
+                            @using (Html.BeginForm("CloserApartment", "Home"))
+                            {
+
+                            }
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>*@
+
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year – Rybitskiy A.</p>
+        </footer>
+    </div>
+
+    @*@Scripts.Render("~/bundles/jquery")*@
+    @Scripts.Render("~/bundles/bootstrap")
+    @*@RenderSection("scripts", required: false)*@
+</body>
+</html>

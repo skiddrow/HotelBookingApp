@@ -1,0 +1,183 @@
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.BLL.dll.config
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.BLL.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.BLL.pdb
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\AutoMapper.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\EntityFramework.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.DAL.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Ninject.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\AutoMapper.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\EntityFramework.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.DAL.pdb
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Ninject.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\obj\Debug\HotelBookingApp.BLL.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\obj\Debug\HotelBookingApp.BLL.pdb
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.WEB.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.Mvc.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.Optimization.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Owin.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Mvc.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.Razor.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Common.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.WEB.pdb
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.Mvc.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.Optimization.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Mvc.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.Razor.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Common.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\ru\System.Web.Optimization.resources.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\NLog.config
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\NLog.dll
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\bin\Debug\NLog.xml
+C:\Epam final task\HotelBookingApp\HotelBookingApp.BLL\obj\Debug\HotelBookingApp.BLL.csprojResolveAssemblyReference.cache
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\NLog.config
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.BLL.dll.config
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.BLL.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.BLL.pdb
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\AutoMapper.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\EntityFramework.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.DAL.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.WEB.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Ninject.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\NLog.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.Mvc.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.Optimization.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Owin.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Mvc.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.Razor.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Common.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\AutoMapper.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\EntityFramework.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.DAL.pdb
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.WEB.pdb
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Ninject.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\NLog.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.Mvc.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.Optimization.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Mvc.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.Razor.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Common.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\ru\System.Web.Optimization.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\obj\Debug\HotelBookingApp.BLL.csprojResolveAssemblyReference.cache
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\obj\Debug\HotelBookingApp.BLL.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 without any sorting in tables\HotelBookingApp.BLL\obj\Debug\HotelBookingApp.BLL.pdb
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\NLog.config
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.BLL.dll.config
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.BLL.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.BLL.pdb
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\AutoMapper.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\EntityFramework.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.DAL.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.WEB.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Ninject.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\NLog.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.Mvc.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.Optimization.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Owin.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Mvc.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.Razor.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Common.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\AutoMapper.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\EntityFramework.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.DAL.pdb
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\HotelBookingApp.WEB.pdb
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Ninject.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\NLog.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.Mvc.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.Optimization.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Mvc.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.Razor.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\Ninject.Web.Common.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\ru\System.Web.Optimization.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\obj\Debug\HotelBookingApp.BLL.csprojResolveAssemblyReference.cache
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\obj\Debug\HotelBookingApp.BLL.dll
+C:\Epam final task\HotelBookingApp 08.02.2018 MAIN\HotelBookingApp.BLL\obj\Debug\HotelBookingApp.BLL.pdb
